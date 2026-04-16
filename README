@@ -2,11 +2,17 @@
 
 A simple web app to split expenses among friends.
 
-## Features
+🚀 Live Demo: https://navaira16.github.io/split-expense-app/ 
+📂 GitHub Repo: https://github.com/Navaira16/Navaira16
+---
+
+## ✨ Features
 - Add expenses
 - Equal split calculation
 - Shows who owes and who gets back
 - Dark mode
 
-## Learning Approach
+---
+
+## 🧠 Learning Approach
 Built using a vibe coding approach focusing on UI and logic building.
