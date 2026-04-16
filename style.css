@@ -1,0 +1,155 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  background: #f0f0f0;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+  width: 100%;
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ===== HEADER ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+
+/* ===== THEME BUTTON ===== */
+.theme-btn {
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* ===== INPUT FIELDS ===== */
+input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* ===== ADD BUTTON ===== */
+#addBtn {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  background: #45a049;
+}
+
+/* ===== EXPENSE LIST ===== */
+#expenseList {
+  list-style: none;
+  margin-top: 10px;
+}
+
+/* Each row */
+#expenseList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* Text */
+#expenseList span {
+  font-size: 14px;
+}
+
+/* DELETE BUTTON FIX (IMPORTANT) */
+#expenseList button {
+  width: auto;              /* 🔥 fixes big green bar */
+  padding: 4px 8px;
+  font-size: 12px;
+  background: red;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== RESULT SECTION ===== */
+#result {
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+/* ===== PROGRESS BAR ===== */
+.bar {
+  height: 6px;
+  background: #4CAF50;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
+
+/* ===== DARK MODE ===== */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .container {
+  background: #1e1e1e;
+}
+
+.dark input {
+  background: #2a2a2a;
+  color: white;
+  border: 1px solid #444;
+}
+
+.dark #expenseList li {
+  background: #2a2a2a;
+}
+
+.dark #expenseList button {
+  background: #c62828;
+}
