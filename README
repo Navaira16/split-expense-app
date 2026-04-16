@@ -1,0 +1,12 @@
+# Split Expense App
+
+A simple web app to split expenses among friends.
+
+## Features
+- Add expenses
+- Equal split calculation
+- Shows who owes and who gets back
+- Dark mode
+
+## Learning Approach
+Built using a vibe coding approach focusing on UI and logic building.
